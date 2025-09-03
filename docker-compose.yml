@@ -1,0 +1,9 @@
+services:
+  embedding-server:
+    build: .
+    container_name: embedding_server
+    restart: always
+    volumes:
+      - ./cache/huggingface:/root/.cache/huggingface
+    ports:
+      - "8001:8001"
