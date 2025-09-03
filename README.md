@@ -20,7 +20,7 @@ A FastAPI-based server that provides text embeddings using the INSTRUCTOR-large 
 
 1. Clone the repository:
 ```bash
-bash git clone git@github.com:Ercogx/embedding-server.git && cd embedding-server 
+git clone https://github.com/Ercogx/embedding-server && cd embedding-server 
 ```
 
 2. Run docker
